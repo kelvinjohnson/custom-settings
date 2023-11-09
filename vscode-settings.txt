@@ -1,0 +1,74 @@
+{
+    "workbench.colorTheme": "Make Apps Theme",
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ],
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "JetBrainsMono-Regular",
+    "editor.fontWeight": "500",
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "debug.console.fontFamily": "JJetBrainsMono-Regular",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "JJetBrainsMono-Regular",
+    "terminal.integrated.fontWeight": "600",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    //code runner config
+    "code-runner.executorMap": {
+        "python": "clear && python -u",
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.runInTerminal": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.largeFileOptimizations": false,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "python.testing.pytestEnabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "JJetBrainsMono-Regular",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "errorLens.enabled": true,
+    "cSpell.userWords": [
+        "chromedriver",
+        "pylint"
+    ],
+    //Advanced new files settings
+    "advancedNewFile.exclude": {
+        "node_modules": true,
+        "node_modules_electron": true,
+        "dev": true,
+        "dist": true
+    },
+    "advancedNewFile.showInformationMessages": true,
+    "advancedNewFile.convenienceOptions": [
+        "last",
+        "current",
+        "root"
+    ],
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "git.openRepositoryInParentFolders": "always"
+}
